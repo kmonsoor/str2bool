@@ -14,12 +14,12 @@ The string can range from ('y' / 'n') to ('yes', 'no') in most regular human lan
  
 ## Example usage
 
->>> import str2bool as s2b
->>> s2b('True')
-    True
->>> s2b('0')
-    False
->>> s2b('Tak')  # polish
-    True
->>> s2b('না')   # bengali
-    False
+    >>> import str2bool as s2b
+    >>> s2b('True')
+        True
+    >>> s2b('0')
+        False
+    >>> s2b('Tak')  # polish
+        True
+    >>> s2b('না')   # bengali
+        False
