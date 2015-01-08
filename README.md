@@ -10,6 +10,8 @@ The string can range from ('y' / 'n') to ('yes', 'no') in most regular human lan
  * Dutch
  * Polish
  * Arabic
+ * Chinese
+ * And, many more ...
  * 
  
 ## Example usage
