@@ -17,6 +17,7 @@ But, now it can sense only single AND basic words in many languages.
  * Chinese
  * Korean
  * Spanish
+ * 
    And, some more ...
 
  Please consider adding your language-specific words, update ``.supported_languages``, and create a pull-request.
