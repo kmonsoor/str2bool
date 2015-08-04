@@ -53,14 +53,27 @@ ValueError: Only single words are supported in this alpha-version utility functi
 # list of supported languages in ISO_639-1_code
 supported_languages = ['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI', ]
 
+# list of checklist words that are considered "True"-ish
+truish_words = ['yes', u'yeah', u'y', u'1', u'ja', u'tak', u'yep', u'true', u'right', u'si', u'sí', u'da',
+                'jes', u'হ্যা', u'জি', u'Да', u'हाँ', u'ya', u'já', u'hai', u'éé', u'eh', u'cha', u'baht',
+                'نعم', u'aye', u'bai', u'হাঁ', u'affirmative', u'positive', u'+ve', u'+', u'是的', u'oo',
+                'はい', u'예', u'네']
+
 
 def string_to_boolean(string):
     if len(string.split()) > 1:
         raise ValueError('Only single words are supported in this alpha-version utility function.')
-    return string.lower() in ['yes', u'yeah', u'y', u'1', u'ja', u'tak', u'yep', u'true', u'right', u'si', u'sí', u'da',
-                              'jes', u'হ্যা', u'জি', u'Да', u'हाँ', u'ya', u'já', u'hai', u'éé', u'eh', u'cha', u'baht',
-                              'نعم', u'aye', u'bai', u'হাঁ', u'affirmative', u'positive', u'+ve', u'+', u'是的', u'oo',
-                              'はい', u'예', u'네']
+
+    try:
+        return float(string) > 0
+    except ValueError:
+        try:
+            return int(string) > 0
+        except ValueError:
+            try:
+                return int(string, 16) > 0
+            except ValueError:
+                return string.strip().lower() in truish_words
 
 
 if __name__ == '__main__':
