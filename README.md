@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kmonsoor/str2bool.svg?branch=master)](https://travis-ci.org/kmonsoor/str2bool)
 
-# str2bool  [Convert String to Boolean]
+# str2bool  :  String to Boolean conversion
 
 a simple multi-lingual utility function to convert a string to boolean i.e. True, False,
 by guessing the approximate meaning of the input string.
@@ -22,7 +22,10 @@ But, now it can sense only single AND basic words in many languages.
  * 
    And, some more ...
 
- Please consider adding your language-specific words, update ``.supported_languages``, and create a pull-request.
+Please consider adding your language-specific "yes"|"True"-ish words. See **Contribution** section below.
+
+## Installation
+    pip install git+git://github.com/kmonsoor/str2bool.git
  
 ## Example usage
     >>> import str2bool as s2b
@@ -46,8 +49,19 @@ But, now it can sense only single AND basic words in many languages.
        raise ValueError('Only single words are supported in this alpha-version utility function.')
     ValueError: Only single words are supported in this alpha-version utility function.
 
-## Installation
-    pip install git+git://github.com/kmonsoor/str2bool.git
+## Contribution
+
+ * To word new list in the "True-ish" checklist, please:
+ 
+   1. Append the "yes"|"True"-ish word(s) at the end of the ``truish_words`` list, 
+   2. update ``supported_languages`` list, and 
+   3. create a pull-request.
+ 
+ * Please add your suggestion, feature-request, constructive criticism, bug as __issue__ on this GitHub repo
+ * Even your generic ovservation, word-of-wisdom, inspiration, or just "Thanks, buddy" is highly welcome. Please send them to my email: k (at) kmonsoor (dot) com
+ * Also, I would love to know any use-case where this tiny library is helping. :) 
 
 ## License
 ``str2bool`` is released as open-source software under the MIT License (MIT). for more information, please visit http://kmonsoor.mit-license.org/
+
+Ciao !
