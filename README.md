@@ -58,7 +58,7 @@ Please consider adding your language-specific "yes"|"True"-ish words. See **Cont
    3. create a pull-request.
  
  * Please add your suggestion, feature-request, constructive criticism, bug as __issue__ on this GitHub repo
- * Even your generic ovservation, word-of-wisdom, inspiration, or just "Thanks, buddy" is highly welcome. Please send them to my email: k (at) kmonsoor (dot) com
+ * Even your generic observation, word-of-wisdom, inspiration, or just "Thanks, buddy" is highly welcome. Please send them to my email: k (at) kmonsoor (dot) com
  * Also, I would love to know any use-case where this tiny library is helping. :) 
 
 ## License
