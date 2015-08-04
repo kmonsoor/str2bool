@@ -45,7 +45,7 @@ Traceback (most recent call last):
 ValueError: Only single words are supported in this alpha-version utility function.
 """
 
-# __version__ = '0.2'
+# __version__ = '0.3'
 # __author__ = 'khaled monsoor <k@kmonsoor.com>'
 # __license__ = 'MIT' : http://kmonsoor.mit-license.org/
 # __date_created__ = 2015.04.02
