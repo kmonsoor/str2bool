@@ -1,14 +1,16 @@
-# str2bool
+[![Build Status](https://travis-ci.org/kmonsoor/str2bool.svg?branch=master)](https://travis-ci.org/kmonsoor/str2bool)
 
-a simple multi-lingual utility function to convert a string to boolean(True, False),
+# str2bool  [Convert String to Boolean]
+
+a simple multi-lingual utility function to convert a string to boolean i.e. True, False,
 by guessing the approximate meaning of the input string.
-By default, it will return `False` unless input is certainly a 'true'-ish word e.g. 'Positive', 'yeah' etc.
+By default, it will return `False`. Return ``True`` ONLY if input is certainly a 'true'-ish word e.g. 'Positive', 'yeah' etc.
 
 Maybe, someday it will be able to detect "boolean"-lity of large sentences.
 But, now it can sense only single AND basic words in many languages.
 
 
-## Currently supported languages:
+### Currently supported languages:
  * English
  * Bengali
  * Dutch
