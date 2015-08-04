@@ -47,7 +47,7 @@ ValueError: Only single words are supported in this alpha-version utility functi
 
 # __version__ = '0.2'
 # __author__ = 'khaled monsoor <k@kmonsoor.com>'
-# __license__ = 'MIT'
+# __license__ = 'MIT' : http://kmonsoor.mit-license.org/
 # __date_created__ = 2015.04.02
 
 # list of supported languages in ISO_639-1_code
