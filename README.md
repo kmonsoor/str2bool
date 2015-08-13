@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/kmonsoor/str2bool.svg?branch=master)](https://travis-ci.org/kmonsoor/str2bool)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](http://kmonsoor.mit-license.org/)
 
 # str2bool  :  String to Boolean conversion
 
