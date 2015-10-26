@@ -20,7 +20,7 @@ But, now it can sense only single AND basic words in many languages.
  * Chinese
  * Korean
  * Spanish
- * 
+ * Ukrainian
    And, some more ...
 
 Please consider adding your language-specific "yes"|"True"-ish words. See **Contribution** section below.
