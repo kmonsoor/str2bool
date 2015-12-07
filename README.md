@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/kmonsoor/str2bool.svg?branch=master)](https://travis-ci.org/kmonsoor/str2bool)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](http://kmonsoor.mit-license.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/)
+
 
 # str2bool  :  String to Boolean conversion
 
@@ -63,6 +64,6 @@ Please consider adding your language-specific "yes"|"True"-ish words. See **Cont
  * Also, I would love to know any use-case where this tiny library is helping. :) 
 
 ## License
-``str2bool`` is released as open-source software under the MIT License (MIT). for more information, please visit http://kmonsoor.mit-license.org/
+``str2bool`` is released as open-source software under the MIT License (MIT).
 
 Ciao !
