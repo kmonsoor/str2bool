@@ -65,5 +65,3 @@ Please consider adding your language-specific "yes"|"True"-ish words. See **Cont
 
 ## License
 ``str2bool`` is released as open-source software under the MIT License (MIT).
-
-Ciao !
