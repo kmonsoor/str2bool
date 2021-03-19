@@ -26,7 +26,7 @@ Example usage
 -------------
 >>> import str2bool as s2b
 >>> print(s2b.supported_languages)
-['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI', 'UA', 'DE']
+['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI', 'UA', 'DE', 'HE']
 >>> s2b.string_to_boolean('True')
 True
 >>> s2b.string_to_boolean('0')
@@ -52,13 +52,13 @@ ValueError: Only single words are supported in this alpha-version utility functi
 # __date_created__ = 2015.04.02
 
 # list of supported languages in ISO_639-1_code
-supported_languages = ['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI', 'UA', 'DE']
+supported_languages = ['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI', 'UA', 'DE', 'HE']
 
 # list of checklist words that are considered "True"-ish
 truish_words = ['yes', u'yeah', u'y', u'1', u'ja', u'tak', u'yep', u'true', u'right', u'si', u'sí', u'da',
                 'jes', u'হ্যা', u'জি', u'Да', u'हाँ', u'ya', u'já', u'hai', u'éé', u'eh', u'cha', u'baht',
                 'نعم', u'aye', u'bai', u'হাঁ', u'affirmative', u'positive', u'+ve', u'+', u'是的', u'oo',
-                'はい', u'예', u'네', u'так', u'ja', u'wahr', u'richtig', u'korrekt']
+                'はい', u'예', u'네', u'так', u'ja', u'wahr', u'richtig', u'korrekt', u'כן', u'נכון']
 
 
 def string_to_boolean(string):
