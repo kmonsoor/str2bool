@@ -56,7 +56,7 @@ supported_languages = ['EN', 'BN', 'AR', 'NL', 'ES', 'KO', 'JA', 'ZH', 'TL', 'VI
 
 # list of checklist words that are considered "True"-ish
 truish_words = ['yes', u'yeah', u'y', u'1', u'ja', u'tak', u'yep', u'true', u'right', u'si', u'sí', u'da',
-                'jes', u'হ্যা', u'জি', u'Да', u'हाँ', u'ya', u'já', u'hai', u'éé', u'eh', u'cha', u'baht',
+                'jes', u'হ্যা', u'জি', u'Да', u"Есть", u"Истина", u'हाँ', u'ya', u'já', u'hai', u'éé', u'eh', u'cha', u'baht',
                 'نعم', u'aye', u'bai', u'হাঁ', u'affirmative', u'positive', u'+ve', u'+', u'是的', u'oo',
                 'はい', u'예', u'네', u'так', u'ja', u'wahr', u'richtig', u'korrekt', u'כן', u'נכון']
 
